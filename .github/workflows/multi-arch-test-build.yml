@@ -11,7 +11,7 @@ permissions:
 jobs:
   wait-for-formalities:
     name: Wait for FormalityCheck
-    runs-on: ubuntu-slim
+    runs-on: [self-hosted, linux, x64, wayscloud-linux]
     steps:
       - name: Wait for Check Run
         uses: lewagon/wait-on-check-action@v1.9.1
