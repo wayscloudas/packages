@@ -1,5 +1,7 @@
 *.o
 .DS_Store
+__pycache__/
+.pytest_cache/
 .*.swp
 *.orig
 *.rej
